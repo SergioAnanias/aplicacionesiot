@@ -21,8 +21,7 @@
         android:layout_centerHorizontal="true"
         app:srcCompat="@drawable/cimg"
         android:layout_marginBottom="20dp"
-        />
-
+    />
     <ImageView
         android:id="@+id/oimg"
         android:layout_width="100dp"
@@ -32,62 +31,32 @@
         android:translationX="50dp"
         app:srcCompat="@drawable/oimg"
         android:layout_marginBottom="20dp"
- />
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RUT"
+        android:labelFor="@+id/editTextTextPassword"
+        android:layout_above="@+id/RUT"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+    ></TextView>
 
     <EditText
-        android:id="@+id/nombreUsuario"
+        android:id="@+id/RUT"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/cimg"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="30dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Nombre de Usuario" />
-
-
-    <EditText
-        android:id="@+id/password"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/nombreUsuario"
-        android:layout_centerHorizontal="true"
-        android:ems="10"
-        android:inputType="textPassword" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Contraseña"
-        android:labelFor="@+id/editTextTextPassword"
-        android:layout_above="@+id/password"
-        android:layout_marginTop="20dp"
-        android:layout_centerHorizontal="true"
-
-        ></TextView>
+        android:inputType="textPersonName" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/password"
+        android:layout_below="@+id/RUT"
         android:layout_centerHorizontal="true"
         android:text="Login" />
-
-    <Button
-        android:id="@+id/registro"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Registro de Dueño de Local"
-        android:layout_centerHorizontal="true"
-        android:layout_above="@+id/cimg"/>
-
-    <Button
-        android:id="@+id/loginrut"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Login Administrador Local"
-        android:layout_above="@+id/registro"
-        android:layout_centerHorizontal="true"/>
-
 </RelativeLayout>

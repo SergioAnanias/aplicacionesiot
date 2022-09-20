@@ -11,8 +11,7 @@
         android:layout_height="wrap_content"
         android:text="Tu Restaurant"
         android:layout_centerHorizontal="true"
-        android:textSize="50dp"
- />
+        android:textSize="50sp" />
 
     <ImageView
         android:id="@+id/nivelCO"
@@ -30,7 +29,7 @@
         android:text="Nivel de CO Actual:"
         android:layout_below="@+id/nivelCO"
         android:layout_centerHorizontal="true"
-        android:textSize="30dp"
+        android:textSize="30sp"
         tools:layout_editor_absoluteX="83dp"
         tools:layout_editor_absoluteY="344dp" />
     <TextView
@@ -40,7 +39,7 @@
         android:text="5 ppm"
         android:layout_below="@+id/nivelesCO"
         android:layout_centerHorizontal="true"
-        android:textSize="30dp"
+        android:textSize="30sp"
         tools:layout_editor_absoluteX="83dp"
         tools:layout_editor_absoluteY="344dp" />
 
