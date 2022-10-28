@@ -58,5 +58,6 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/RUT"
         android:layout_centerHorizontal="true"
-        android:text="Login" />
+        android:text="Login"
+        android:onClick="loginRUT"/>
 </RelativeLayout>

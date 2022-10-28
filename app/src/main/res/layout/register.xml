@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:layout_centerHorizontal="true"
-        android:text="Registro de Usuario"
+        android:hint="Registro de Usuario"
         android:textSize="40dp"
         android:layout_marginTop="50dp"
         android:layout_marginBottom="30dp"
@@ -54,7 +54,13 @@
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/nombreUsuario"
         />
-
+    <TextView
+        android:id="@+id/txt_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        ></TextView>
     <TextView
         android:id="@+id/textrepeatpassword"
         android:layout_width="wrap_content"
@@ -100,6 +106,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/restaurant"
         android:layout_centerHorizontal="true"
-        android:text="Registro" />
+        android:text="Registro"
+        android:onClick="register"/>
 
 </RelativeLayout>

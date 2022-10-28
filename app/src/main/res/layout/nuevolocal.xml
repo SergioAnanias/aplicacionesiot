@@ -78,6 +78,7 @@
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/rutAdmin"
         android:text="Registro nuevo local"
-        android:textSize="12dp"/>
+        android:textSize="12dp"
+        android:onClick="nuevoLocal"/>
 
 </RelativeLayout>

@@ -6,12 +6,13 @@
         <entry key="..\:/Users/VICTORIA/Desktop/DetecciondeGas/app/src/main/res/layout/activity_main.xml" value="0.4742468415937804" />
         <entry key="..\:/Users/VICTORIA/Desktop/DetecciondeGas/app/src/main/res/layout/login.xml" value="0.11197916666666667" />
         <entry key="..\:/Users/VICTORIA/Desktop/DetecciondeGas/app/src/main/res/layout/user_activity.xml" value="0.1" />
-        <entry key="..\:/iot/aplicacionesiot/app/src/main/res/layout/activity_main.xml" value="0.67" />
-        <entry key="..\:/iot/aplicacionesiot/app/src/main/res/layout/login.xml" value="0.67" />
-        <entry key="..\:/iot/aplicacionesiot/app/src/main/res/layout/loginrut.xml" value="0.67" />
-        <entry key="..\:/iot/aplicacionesiot/app/src/main/res/layout/nuevolocal.xml" value="0.67" />
-        <entry key="..\:/iot/aplicacionesiot/app/src/main/res/layout/register.xml" value="0.75" />
-        <entry key="..\:/iot/aplicacionesiot/app/src/main/res/layout/user_activity.xml" value="0.75" />
+        <entry key="..\:/iot/aplicacionesiot/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/iot/aplicacionesiot/app/src/main/res/layout/login.xml" value="0.25" />
+        <entry key="..\:/iot/aplicacionesiot/app/src/main/res/layout/loginrut.xml" value="0.25" />
+        <entry key="..\:/iot/aplicacionesiot/app/src/main/res/layout/nuevolocal.xml" value="0.25" />
+        <entry key="..\:/iot/aplicacionesiot/app/src/main/res/layout/register.xml" value="0.1" />
+        <entry key="..\:/iot/aplicacionesiot/app/src/main/res/layout/user_activity.xml" value="0.18" />
+        <entry key="..\:/iot/aplicacionesiot/app/src/main/res/layout/vistaadmin.xml" value="0.1933876811594203" />
       </map>
     </option>
   </component>

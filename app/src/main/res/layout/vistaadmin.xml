@@ -155,6 +155,7 @@
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/title"
         android:text="Registro nuevo local"
+        android:onClick="vistanuevolocal"
         android:textSize="12dp"/>
 
 </RelativeLayout>
