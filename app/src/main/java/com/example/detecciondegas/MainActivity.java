@@ -6,20 +6,21 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     EditText username, password;
-
+    DBHandler dbHandler;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login);
         username=(EditText)findViewById(R.id.nombreUsuario);
         password=(EditText)findViewById(R.id.password);
-
+        dbHandler = new DBHandler(MainActivity.this);
     }
     public void loginRutActivity(View view){
         startActivity(new Intent(MainActivity.this, loginrut.class ));
@@ -31,8 +32,12 @@ public class MainActivity extends AppCompatActivity {
             toast.show();
         }
         else{
-            if(ValidateLogin(username.getText().toString(),password.getText().toString())){
-                startActivity(new Intent(MainActivity.this, vistaadmin.class));
+            Log.d("USUARIO",dbHandler.getUser(username.getText().toString(), password.getText().toString()).toString());
+            if(dbHandler.getUser(username.getText().toString(), password.getText().toString()).size()>0){
+                UserModel userModel= dbHandler.getUser(username.getText().toString(), password.getText().toString()).get(0);
+                Intent intent = new Intent(MainActivity.this, vistaadmin.class);
+                intent.putExtra("usuario", userModel);
+                startActivity(intent);
             }
             else{
                 Context context = getApplicationContext();
@@ -44,9 +49,5 @@ public class MainActivity extends AppCompatActivity {
     public void registerForm(View view){
         startActivity(new Intent(MainActivity.this, register.class));
     }
-    public boolean ValidateLogin(String username, String password){
-        // Validar en base de datos
 
-        return true;
-    }
 }

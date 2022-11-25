@@ -11,6 +11,6 @@ public class vistaencargado extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.vistaencargado);
-        // Requiere datos del sensor de gas para mostrar
+
     }
 }
